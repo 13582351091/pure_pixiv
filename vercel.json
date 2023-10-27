@@ -1,0 +1,22 @@
+{
+    "rewrites": [
+
+        {
+          "source": "/host.json",
+          "destination": "/api/host.ts"
+        },
+        {
+          "source": "/buyinfo.json",
+          "destination": "/api/buyinfo.ts"
+        },
+        {
+          "source": "/pay.json",
+          "destination": "/api/pay.ts"
+        },
+        {
+          "source": "/update.json",
+          "destination": "/api/update.ts"
+        }
+
+      ]
+}
